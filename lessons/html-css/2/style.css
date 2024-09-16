@@ -1,0 +1,70 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.box{
+    width: 200px;
+    height: 100vh;
+    margin: 0 auto;
+}
+
+.block1{
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    animation-name: anime;
+    background-color: red;
+    position: relative;
+    animation-duration: 2s;
+    animation-delay: 1s;
+}
+
+.block2{
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    animation-name: anime3;
+    background-color: yellow;
+    position: relative;
+    animation-duration: 3s;
+    animation-delay: 2s;
+    top: 15px;
+}
+
+.block3{
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    animation-name: anime3;
+    background-color: green;
+    position: relative;
+    animation-duration: 5s;
+    animation-delay: 4s;
+    top: 30px;
+}
+
+@keyframes anime{
+    0%{
+        top: -100%;
+    }
+    100%{
+        top: 0%;
+    }
+}
+@keyframes anime2{
+    0%{
+        top: -100%;
+    }
+    100%{
+        top: 0%;
+    }
+}
+@keyframes anime3{
+    0%{
+        top: -100%;
+    }
+    100%{
+        top: 0%;
+    }
+}
